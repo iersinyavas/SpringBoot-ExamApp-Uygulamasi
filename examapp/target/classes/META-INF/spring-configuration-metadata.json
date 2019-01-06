@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.ie.examapp.ExamAppProperties",
+      "name": "examapp",
+      "type": "com.ie.examapp.ExamAppProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.ie.examapp.ExamAppProperties",
+      "name": "examapp.display-exam-app",
+      "type": "java.lang.Boolean"
+    }
+  ]
+}
