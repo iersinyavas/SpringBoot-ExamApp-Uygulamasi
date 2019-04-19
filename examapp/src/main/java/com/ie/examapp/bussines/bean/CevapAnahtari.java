@@ -9,17 +9,17 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class CevapAnahtari implements CevapAnahtariBussinesRepository {
-	private static List<CevapSiklari> cevapAnahtariT = new ArrayList();
-	private static List<CevapSiklari> cevapAnahtariM = new ArrayList();
-	private static List<CevapSiklari> cevapAnahtariS = new ArrayList();
-	private static List<CevapSiklari> cevapAnahtariF = new ArrayList();
-	private static List<String> soruSeviyeleriT = new ArrayList();
-	private static List<String> soruSeviyeleriM = new ArrayList();
-	private static List<String> soruSeviyeleriS = new ArrayList();
-	private static List<String> soruSeviyeleriF = new ArrayList();
+	private static List<CevapSiklari> cevapAnahtariT = new ArrayList<>();
+	private static List<CevapSiklari> cevapAnahtariM = new ArrayList<>();
+	private static List<CevapSiklari> cevapAnahtariS = new ArrayList<>();
+	private static List<CevapSiklari> cevapAnahtariF = new ArrayList<>();
+	private static List<String> soruSeviyeleriT = new ArrayList<>();
+	private static List<String> soruSeviyeleriM = new ArrayList<>();
+	private static List<String> soruSeviyeleriS = new ArrayList<>();
+	private static List<String> soruSeviyeleriF = new ArrayList<>();
 
 	public List<List<String>> soruSeviyeleriniGetir() {
-		List<List<String>> list = new ArrayList();
+		List<List<String>> list = new ArrayList<>();
 		list.add(0, getSoruSeviyeleriT());
 		list.add(1, getSoruSeviyeleriM());
 		list.add(2, getSoruSeviyeleriS());
@@ -117,7 +117,7 @@ public class CevapAnahtari implements CevapAnahtariBussinesRepository {
 	}
 
 	public static void setCevapAnahtariT(List<CevapSiklari> cevapAnahtariT) {
-		cevapAnahtariT = cevapAnahtariT;
+		CevapAnahtari.cevapAnahtariT = cevapAnahtariT;
 	}
 
 	public static List<CevapSiklari> getCevapAnahtariM() {
@@ -125,7 +125,7 @@ public class CevapAnahtari implements CevapAnahtariBussinesRepository {
 	}
 
 	public static void setCevapAnahtariM(List<CevapSiklari> cevapAnahtariM) {
-		cevapAnahtariM = cevapAnahtariM;
+		CevapAnahtari.cevapAnahtariM = cevapAnahtariM;
 	}
 
 	public static List<CevapSiklari> getCevapAnahtariS() {
@@ -133,7 +133,7 @@ public class CevapAnahtari implements CevapAnahtariBussinesRepository {
 	}
 
 	public static void setCevapAnahtariS(List<CevapSiklari> cevapAnahtariS) {
-		cevapAnahtariS = cevapAnahtariS;
+		CevapAnahtari.cevapAnahtariS = cevapAnahtariS;
 	}
 
 	public static List<CevapSiklari> getCevapAnahtariF() {
@@ -141,7 +141,7 @@ public class CevapAnahtari implements CevapAnahtariBussinesRepository {
 	}
 
 	public static void setCevapAnahtariF(List<CevapSiklari> cevapAnahtariF) {
-		cevapAnahtariF = cevapAnahtariF;
+		CevapAnahtari.cevapAnahtariF = cevapAnahtariF;
 	}
 
 	public static List<String> getSoruSeviyeleriT() {
@@ -149,7 +149,7 @@ public class CevapAnahtari implements CevapAnahtariBussinesRepository {
 	}
 
 	public static void setSoruSeviyeleriT(List<String> soruSeviyeleriT) {
-		soruSeviyeleriT = soruSeviyeleriT;
+		CevapAnahtari.soruSeviyeleriT = soruSeviyeleriT;
 	}
 
 	public static List<String> getSoruSeviyeleriM() {
@@ -157,7 +157,7 @@ public class CevapAnahtari implements CevapAnahtariBussinesRepository {
 	}
 
 	public static void setSoruSeviyeleriM(List<String> soruSeviyeleriM) {
-		soruSeviyeleriM = soruSeviyeleriM;
+		CevapAnahtari.soruSeviyeleriM = soruSeviyeleriM;
 	}
 
 	public static List<String> getSoruSeviyeleriS() {
@@ -165,7 +165,7 @@ public class CevapAnahtari implements CevapAnahtariBussinesRepository {
 	}
 
 	public static void setSoruSeviyeleriS(List<String> soruSeviyeleriS) {
-		soruSeviyeleriS = soruSeviyeleriS;
+		CevapAnahtari.soruSeviyeleriS = soruSeviyeleriS;
 	}
 
 	public static List<String> getSoruSeviyeleriF() {
@@ -173,6 +173,6 @@ public class CevapAnahtari implements CevapAnahtariBussinesRepository {
 	}
 
 	public static void setSoruSeviyeleriF(List<String> soruSeviyeleriF) {
-		soruSeviyeleriF = soruSeviyeleriF;
+		CevapAnahtari.soruSeviyeleriF = soruSeviyeleriF;
 	}
 }

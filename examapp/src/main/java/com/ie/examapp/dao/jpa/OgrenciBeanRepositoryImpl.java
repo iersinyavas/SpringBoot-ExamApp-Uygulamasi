@@ -12,8 +12,6 @@ import java.util.Random;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import org.hibernate.Session;
-import org.hibernate.query.NativeQuery;
-import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
@@ -71,8 +69,8 @@ public class OgrenciBeanRepositoryImpl implements OgrenciBeanRepository {
 				.getResultList();
 		List<Universite> universiteList = session
 				.createQuery("from Universite order by uniKalite desc", Universite.class).getResultList();
-		List<String> bolumAdlari = new ArrayList();
-		List<Ogrenci> ogrenciler = new ArrayList();
+		List<String> bolumAdlari = new ArrayList<>();
+		List<Ogrenci> ogrenciler = new ArrayList<>();
 		for (int i = 0; i < universiteList.size(); i++) {
 			Universite universite = (Universite) session.get(Universite.class,
 					Integer.valueOf(((Universite) universiteList.get(i)).getUniId()));

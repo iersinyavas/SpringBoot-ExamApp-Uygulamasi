@@ -9,7 +9,7 @@ public class CevapSiklari {
 	List<String> siklar;
 
 	public CevapSiklari() {
-		this.siklar = new ArrayList();
+		this.siklar = new ArrayList<>();
 	}
 
 	public List<String> getSiklar() {

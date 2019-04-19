@@ -8,20 +8,20 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Kullanici implements KullaniciBussinesRepository {
-	private static List<String> yanitlarT = new ArrayList();
-	private static List<String> yanitlarM = new ArrayList();
-	private static List<String> yanitlarS = new ArrayList();
-	private static List<String> yanitlarF = new ArrayList();
-	private static List<String> dogruYanlisT = new ArrayList();
-	private static List<String> dogruYanlisM = new ArrayList();
-	private static List<String> dogruYanlisS = new ArrayList();
-	private static List<String> dogruYanlisF = new ArrayList();
+	private static List<String> yanitlarT = new ArrayList<>();
+	private static List<String> yanitlarM = new ArrayList<>();
+	private static List<String> yanitlarS = new ArrayList<>();
+	private static List<String> yanitlarF = new ArrayList<>();
+	private static List<String> dogruYanlisT = new ArrayList<>();
+	private static List<String> dogruYanlisM = new ArrayList<>();
+	private static List<String> dogruYanlisS = new ArrayList<>();
+	private static List<String> dogruYanlisF = new ArrayList<>();
 
 	public void kullaniciSonuclari() {
 	}
 
 	public List<List<String>> dogruYanlisListeleriniGetir() {
-		List<List<String>> list = new ArrayList();
+		List<List<String>> list = new ArrayList<>();
 		list.add(0, getDogruYanlisT());
 		list.add(1, getDogruYanlisM());
 		list.add(2, getDogruYanlisS());
@@ -84,7 +84,7 @@ public class Kullanici implements KullaniciBussinesRepository {
 	}
 
 	public static void setYanitlarT(List<String> yanitlarT) {
-		yanitlarT = yanitlarT;
+		Kullanici.yanitlarT = yanitlarT;
 	}
 
 	public static List<String> getYanitlarM() {
@@ -92,7 +92,7 @@ public class Kullanici implements KullaniciBussinesRepository {
 	}
 
 	public static void setYanitlarM(List<String> yanitlarM) {
-		yanitlarM = yanitlarM;
+		Kullanici.yanitlarM = yanitlarM;
 	}
 
 	public static List<String> getYanitlarS() {
@@ -100,7 +100,7 @@ public class Kullanici implements KullaniciBussinesRepository {
 	}
 
 	public static void setYanitlarS(List<String> yanitlarS) {
-		yanitlarS = yanitlarS;
+		Kullanici.yanitlarS = yanitlarS;
 	}
 
 	public static List<String> getYanitlarF() {
@@ -108,7 +108,7 @@ public class Kullanici implements KullaniciBussinesRepository {
 	}
 
 	public static void setYanitlarF(List<String> yanitlarF) {
-		yanitlarF = yanitlarF;
+		Kullanici.yanitlarF = yanitlarF;
 	}
 
 	public static List<String> getDogruYanlisT() {
@@ -116,7 +116,7 @@ public class Kullanici implements KullaniciBussinesRepository {
 	}
 
 	public static void setDogruYanlisT(List<String> dogruYanlisT) {
-		dogruYanlisT = dogruYanlisT;
+		Kullanici.dogruYanlisT = dogruYanlisT;
 	}
 
 	public static List<String> getDogruYanlisM() {
@@ -124,7 +124,7 @@ public class Kullanici implements KullaniciBussinesRepository {
 	}
 
 	public static void setDogruYanlisM(List<String> dogruYanlisM) {
-		dogruYanlisM = dogruYanlisM;
+		Kullanici.dogruYanlisM = dogruYanlisM;
 	}
 
 	public static List<String> getDogruYanlisS() {
@@ -132,7 +132,7 @@ public class Kullanici implements KullaniciBussinesRepository {
 	}
 
 	public static void setDogruYanlisS(List<String> dogruYanlisS) {
-		dogruYanlisS = dogruYanlisS;
+		Kullanici.dogruYanlisS = dogruYanlisS;
 	}
 
 	public static List<String> getDogruYanlisF() {
@@ -140,6 +140,6 @@ public class Kullanici implements KullaniciBussinesRepository {
 	}
 
 	public static void setDogruYanlisF(List<String> dogruYanlisF) {
-		dogruYanlisF = dogruYanlisF;
+		Kullanici.dogruYanlisF = dogruYanlisF;
 	}
 }

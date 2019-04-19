@@ -13,7 +13,7 @@ public class TestSonucuPojo {
 	private List<TestSonucuPojo> testSonucuPojoList;
 
 	public TestSonucuPojo() {
-		this.testSonucuPojoList = new ArrayList();
+		this.testSonucuPojoList = new ArrayList<>();
 	}
 
 	public int getDogru() {

@@ -11,7 +11,7 @@ public class SinavBean {
 	public List<Ogrenci> ogrenciList;
 
 	public SinavBean ogrenciOlustur() {
-		this.ogrenciList = new ArrayList();
+		this.ogrenciList = new ArrayList<>();
 		for (int i = 0; i < getOgrenciSayisi(); i++) {
 			OgrenciBean ogrenciBean = new OgrenciBean();
 			ogrenciBean.bilgiler();

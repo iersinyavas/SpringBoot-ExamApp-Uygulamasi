@@ -61,7 +61,7 @@ public class UniversiteBean {
 	private List<Universite> varOlanUniversiteList;
 
 	public void universiteOlustur() {
-		this.universiteList = new ArrayList();
+		this.universiteList = new ArrayList<>();
 		this.varOlanUniversiteList = this.ogrenciBeanRepository.varOlanUniversiteList();
 		Random random = new Random();
 		for (int i = 0; i < random.nextInt(4) + 1; i++) {
@@ -98,7 +98,7 @@ public class UniversiteBean {
 	}
 
 	private List<String> tercihEdilecekBolumler(List<String> bolumAdlari) {
-		List<String> bolumTercih = new ArrayList();
+		List<String> bolumTercih = new ArrayList<>();
 		Random random = new Random();
 		for (int i = 0; i < 3; i++) {
 			bolumTercih.add((String) bolumAdlari.get(random.nextInt(bolumAdlari.size())));

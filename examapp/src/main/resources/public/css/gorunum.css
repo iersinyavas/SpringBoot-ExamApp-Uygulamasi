@@ -1,0 +1,95 @@
+.anasayfa{
+	width: 1580px;
+	height: 1260px;
+}
+#header{
+	width: 1580px;
+	height: 100px;
+	border: 2px solid gray;
+	font-family: Arial;
+	font-size: xx-large;
+	text-align: center;
+}
+#ortakisim{
+	width: 1580px;
+	height: 1060px;
+	border: 2px solid gray;
+}
+#kayit{
+	width:230px;
+	height: 200px;
+	border: 2px solid gray;
+	float: left;
+	margin-left: 510px;
+}
+#test{
+	width: 1108px;
+	height: 1060px;
+	border: 2px solid gray;
+	float: left;
+}
+#ttest{
+	width: 273px;
+	height: 1058px;
+	border: 2px solid gray;
+	float: left;
+}
+#mtest{
+	width: 273px;
+	height: 1058px;
+	border: 2px solid gray;
+	float: left;
+}
+#stest{
+	width: 273px;
+	height: 1058px;
+	border: 2px solid gray;
+	float: left;
+}
+#ftest{
+	width: 273px;
+	height: 1058px;
+	border: 2px solid gray;
+	float: left;
+}
+#giris{
+	width: 230px;
+	height: 200px;
+	border: 2px solid gray;
+	float: left;
+}
+#footer{
+	width: 1580px;
+	height: 100px;
+	border: 2px solid gray;
+}
+#kullanici_test{
+	width: 1508px;
+	height: 1060px;
+	border: 2px solid gray;
+	float: left;
+}
+#kullanici_ttest{
+	width: 373px;
+	height: 1058px;
+	border: 2px solid gray;
+	float: left;
+}
+#kullanici_mtest{
+	width: 373px;
+	height: 1058px;
+	border: 2px solid gray;
+	float: left;
+}
+#kullanici_stest{
+	width: 373px;
+	height: 1058px;
+	border: 2px solid gray;
+	float: left;
+}
+#kullanici_ftest{
+	width: 373px;
+	height: 1058px;
+	border: 2px solid gray;
+	float: left;
+}
